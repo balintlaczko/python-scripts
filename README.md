@@ -9,11 +9,12 @@ Contents:
   - goldberg_tf_LSTM_stacked_wshift3.py | trains a stacked, stateful LSTM network to predict MIDI pitches based on J.S. Bach's Goldberg Variations 
   - tfaudio_stuff.py | trains a stacked, stateful LSTM network to generate audio based on another audio file (work-in-progress...)
 - ReaScripts:
-  - armAllAutos.py | arms all automation lines in a project
-  - autonameChildsInParent.py | generates names of all child tracks in a parent track (as <parent_name><child_index>)
-  - autoRouteToParent.py | routes selected child tracks to consequtive channels of the parent track, unrouting all other (unselected) child tracks
-  - changeSourceFiles.py | changes the source files of all items on a selected track (useful for batch processing/swapping)
-  - parentSendSort.py | routes all child tracks in a selected parent track to consequtive  channels
-  - resetParentSends.py | resets the routing of child tracks inside a parent track to the defaults
+  - bl_armAllAutos.py | arms all automation lines in a project
+  - bl_autonameChildsInParent.py | generates names of all child tracks in a parent track (as <parent_name><child_index>)
+  - bl_autoRouteToParent.py | routes selected child tracks to consequtive channels of the parent track, unrouting all other (unselected) child tracks
+  - bl_changeSourceFiles.py | changes the source files of all items on a selected track (useful for batch processing/swapping)
+  - bl_parentSendSort.py | routes all child tracks in a selected parent track to consequtive  channels
+  - bl_resetParentSends.py | resets the routing of child tracks inside a parent track to the defaults
+  - bl_generateMcfxConvConf.py | generates .conf files for an mcfx_convolver in order to use it as a HOA IR reverb
   
 
